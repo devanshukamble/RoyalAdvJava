@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+</head>
+<body>
+	<form action="RegistrationServlet" method="post">
+		First Name : <input type="text" name="fn"><br><br>
+		Last Name : <input type="text" name="ln"><br><br>
+		Email : <input type="text" name="email"><br><br>
+		Password : <input type="password" name="pwd"><br><br>
+		Gender: 
+			Male : <input type="radio" name="gender" value="male">
+			Female : <input type="radio" name="gender" value="female"><br><br>
+		Hobby :
+			Cricket : <input type="checkbox" name="hobby" value="cricket">
+			Volyball : <input type="checkbox" name="hobby" value="vollyball">
+			BaseBall : <input type="checkbox" name="hobby" value="baseball"><br><br>
+		<select name="state">
+			<option value="sur">surat</option>
+			<option value="adi">ahmedabad</option>
+			<option value="nvs">navsari</option>
+		</select>
+		<br><br>
+		Address:<br><br> <textarea rows="5" cols="20" name="add"></textarea><br><br>
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
