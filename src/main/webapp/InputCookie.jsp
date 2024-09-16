@@ -12,5 +12,6 @@
 		<input type="submit" value="submit"/>
 	</form>
 	<a href="ViewCookie.jsp">View cookie</a>
+	
 </body>
 </html>

@@ -9,5 +9,6 @@
 <body>
 	Firstname => ${cookie.firstname.value} <br><br>
 	<a href="InputCookie.jsp">Home</a>
+	<a href="LogoutServlet">logout</a>
 </body>
 </html>
